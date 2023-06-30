@@ -1,8 +1,8 @@
 """
 Response models for the API
 """
+from typing import Optional
 from pydantic import BaseModel, validator
-from pydantic.schema import Optional
 
 
 class CipherText(BaseModel):
